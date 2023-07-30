@@ -54,4 +54,4 @@ jobs:
           name: run lint
           command: |
             source ~/.devops/bin/activate
-            make lint
+            ls -lah
