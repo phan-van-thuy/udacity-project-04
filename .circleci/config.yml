@@ -33,6 +33,11 @@ jobs:
             make setup
 
       - run:
+          name: create virtualenv
+          command: |
+            make install
+
+      - run:
           name: install dependencies
           command: |
             python3 -m venv ~/.devops
