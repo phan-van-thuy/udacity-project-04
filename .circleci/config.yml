@@ -45,10 +45,11 @@ jobs:
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       - run:
-          name: create virtualenv
+          name: run install
           command: |
             source ~/.devops/bin/activate
             make install
+
       # run tests!
       - run:
           name: run tests
