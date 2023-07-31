@@ -32,10 +32,6 @@ jobs:
           command: |
             make setup
 
-      - run:
-          name: create virtualenv
-          command: |
-            make install
 
       - run:
           name: install dependencies
@@ -47,7 +43,12 @@ jobs:
           paths:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
-        
+
+      - run:
+          name: create virtualenv
+          command: |
+            source ~/.devops/bin/activate
+            make install
       # run tests!
       - run:
           name: run tests
