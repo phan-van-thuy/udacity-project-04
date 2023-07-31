@@ -1,5 +1,5 @@
 
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/phan-van-thuy/udacity-project-04/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/phan-van-thuy/udacity-project-04/tree/main)
 
 Project Tasks
 Your project goal is to operational this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project you will:
