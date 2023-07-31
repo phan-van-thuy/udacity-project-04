@@ -1,5 +1,8 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/phan-van-thuy/udacity-project-04/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/phan-van-thuy/udacity-project-04/tree/main)
 
+## Project URL Github Repo
+URL Github Repo: https://github.com/phan-van-thuy/udacity-project-04
+
 ## Project Overview
 In this project, you will apply the skills you have acquired in this course to operational a Machine Learning Microservice API. 
 
